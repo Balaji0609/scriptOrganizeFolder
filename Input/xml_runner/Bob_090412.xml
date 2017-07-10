@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<TestRunner>
+	<TestSuite name="TestSuite_01">
+		<TestCase name="Test_01_01" logpath="./out/0904/01_01.txt" script="test_01.sh" />
+		<TestCase name="Test_01_02" logpath="./out/0904/01_02.txt" script="test_02.sh" />
+		<TestCase name="Test_01_03" logpath="./out/0904/01_03.txt" script="test_03.sh" />
+	</TestSuite>
+	<TestSuite name="TestSuite_02">
+		<TestCase script="test_01.sh" name="Test_02_01"  logpath="./out/0904/02_01.txt" />
+		<TestCase script="test_01.sh" name="Test_02_02"  logpath="./out/0904/02_02.txt" />
+		<TestCase script="test_01.sh" name="Test_02_03"  logpath="./out/0904/02_03.txt" />
+	</TestSuite>
+	<TestSuite name="TestSuite_03">
+		<TestCase name="Test_03_01" script="test_01.sh" logpath="./out/0904/03_01.txt" />
+		<TestCase name="Test_03_02" script="test_01.sh" logpath="./out/0904/03_02.txt" />
+		<TestCase name="Test_03_03" script="test_01.sh" logpath="./out/0904/03_03.txt" />
+	</TestSuite>
+	<TestSuite name="TestSuite_04">
+		<TestCase name="Test_04_01" logpath="./out/0904/04_01.txt" script="test_01.sh" />
+		<TestCase name="Test_04_02" logpath="./out/0904/04_02.txt" script="test_02.sh" />
+		<TestCase name="Test_04_03" logpath="./out/0904/04_03.txt" script="test_03.sh" />
+		<TestCase name="Test_04_04" logpath="./out/0904/04_04.txt" script="test_04.sh" />
+		<TestCase name="Test_04_05" logpath="./out/0904/04_05.txt" script="test_05.sh" />
+	</TestSuite>
+</TestRunner>

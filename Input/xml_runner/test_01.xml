@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<TestRunner>
+	<TestSuite name="EmptyTestSuite">
+	</TestSuite>
+	<TestSuite name="Test_01">
+		<TestCase name="Test1" script="test_01.sh" logpath="./logs/01.log" />
+		<TestCase name="Test2" script="01.sh" logpath="./logs/01.log" />
+		<TestCase name="Test3" script="03.sh" logpath="./logs/03.log" />
+		<TestCase name="Test4" script="04.sh" logpath="./logs/04.log" />
+	</TestSuite>
+</TestRunner>

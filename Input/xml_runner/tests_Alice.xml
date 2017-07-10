@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<TestRunner>
+	<TestCase name="SHORT_RUN" script="test_short" logpath="./logs/alice_1/alice.log" />
+	<TestCase name="NORMAL" script="test_short" logpath="./logs/alice_2/test.log" />
+	<TestCase name="LONG" script="test_long" logpath="./logs/alice_3/test.log" />
+	<TestCase name="REALLY_LONG" script="test_soak" logpath="./logs/alice_4/test.log" />
+</TestRunner>

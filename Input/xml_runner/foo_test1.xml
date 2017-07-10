@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<TestRunner>
+	<TestSuite name="Foo">
+		<TestCase name="Bar01" script="test_01.sh" logpath="./out/test_foo_bar1_0.log" />
+		<TestCase name="Bar02" script="test_02.sh" logpath="./out/test_foo_bar2_0.log" />
+	</TestSuite>
+	<TestCase
+		name="Baz"
+		logpath="./logs/baz.log"
+	/>
+</TestRunner>
